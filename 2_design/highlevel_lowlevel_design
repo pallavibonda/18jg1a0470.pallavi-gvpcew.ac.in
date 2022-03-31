@@ -1,0 +1,5 @@
+High level design:
+   -firstly we give the inputs of the list of candidates names
+   -then we will give the votes
+   -then we count the votes
+   -finally declare the maximun number of votes.
