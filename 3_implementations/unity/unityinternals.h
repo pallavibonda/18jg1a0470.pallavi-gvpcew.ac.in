@@ -9,10 +9,6 @@
 #include <setjmp.h>
 #endif
 
-#ifndef UNITY_EXCLUDE_MATH_H
-#include <math.h>
-#endif
-
 #ifndef UNITY_EXCLUDE_STDDEF_H
 #include <stddef.h>
 #endif
