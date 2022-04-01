@@ -2,10 +2,10 @@
 
 #define CANDIDATE_COUNT
 
-#define CANDIDATE1 "David Hull"
-#define CANDIDATE2 "Kristin Canella"
-#define CANDIDATE3 "Jim Brar"
-#define CANDIDATE4 "Donald Truimph"
+#define CANDIDATE1 "PAWAN KALYAN"
+#define CANDIDATE2 "YS JAGAN MOHAN REDDY"
+#define CANDIDATE3 "CHANDRA BABU NAIDU"
+#define CANDIDATE4 "KCR"
 
 int votesCount1=0, votesCount2=0, votesCount3=0, votesCount4=0, spoiledtvotes=0;
 
