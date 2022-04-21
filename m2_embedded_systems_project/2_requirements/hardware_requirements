@@ -1,5 +1,5 @@
 HARDWARE REQUIREMENTS: 
--8051 series Microcontroller
+-Microcontroller(atmega 328)
 -Relay Driver IC
 -Relays
 -Matrix Keypad
