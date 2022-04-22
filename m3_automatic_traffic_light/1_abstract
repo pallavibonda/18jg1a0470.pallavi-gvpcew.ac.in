@@ -1,0 +1,128 @@
+TITLE:  AUTOMATIC STREET LIGHT CONTROLLER USING ATMEGA 328P MICRO CONTROLLER
+
+
+Traffic lights are signalling devices that are conceived to control the traffic flows at road intersections, pedestrian crossing, rail train and other locations. Traffic lights consists
+of three universal coloured lights: the green light allows traffic to proceed in the indicated direction, the yellow light warms vehicles to prepare for short stop and the red signal
+prohibits any traffic from proceeding.
+In modern life we have to face with many problems one of
+which is traffic congestion becoming more serious day after
+day. It is said that the high volume of vehicles, the inadequate
+infrastructure and the irrational distribution of the
+development are main reasons for increasing traffic jam. The
+major cause leading to traffic congestion is the high number
+of vehicles which was caused by the population and the
+development of economy. Traffic congestion is a condition
+on road networks that occurs as use increases and is
+characterized by slower speeds, longer trip times and
+increased vehicular queuing.
+
+The conventional traffic system needs to be upgraded to solve
+the severe traffic congestion, alleviate transportation troubles,
+reduce traffic volume and waiting time, minimize overall
+travel time, optimize cars safety and efficiency and expand the
+benefits in health, economic and environmental sector. This
+paper proposes a simple, low-cost and real time digital traffic
+light control system. In the simplest sense digital traffic light
+control system adjust the timing of their green light cycles to
+match current traffic conditions on the road. They are
+constantly collecting data about approaching vehicles in front
+of IR sensor device and software creating new timing sequence
+to match them by using timer IC. This sensor is mounted both
+side on the road at the particular distance from an intersection
+point.
+Traffic congestion is now considered to be one of the biggest
+problems will be also much more widely increasing as an
+expected result of the growing number of transportation means
+and current low-quality infrastructure of the roads. In addition,
+many studies and statistics were generated in developing
+countries that proved that most of the road accidents are
+because of the very narrow roads and because of the
+destructive increase in the transportation means. The vehicles
+engine emitted an environmental hazardous gases due to heavy
+traffic congestion at the traffic signal. We use the air pollution
+detector sensor to detect the daily average pollution in
+percentage and it is display on the digital display.
+2. HARDWARE COMPONENT
+2.1 IR sensor
+An Infrared sensor or IR sensor is an electronic device
+implemented to obstacle sensing, colour detection, fire
+detection or to differentiate between objects depending on its
+feature. The sensor provides a digital output. The IR sensor
+emits or receives the infrared radiations (430 THz – 300 GHz)
+that are invisible for the human eye. The sensor outputs a logic
+one (+5V) at the digital output when an obstacle is come in
+front of the sensor and a logic zero (0V), when there is no
+obstacle in front of the sensor. LED is used to indicate the
+presence of an object.
+Fig.(a): IR sensor
+2.2 ATmega328P Microcontroller
+The ATmega328 is a single-chip microcontroller created by
+Atmel in the mega AVR family (later Microchip Technology
+acquired Atmel in 2016). It is an 8-bit and 28 pins AVR
+Microcontroller and has a flash type program memory of
+32KB. It has an EEPROM memory of 1KB and its SRAM
+memory is of 2KB. It has 8 pin for ADC operations, which
+all combines to form Port A (PA0 – PA7). It has 14 digital
+I/O pins, of which 6 can be used as PWM outputs and 6
+analog input pins. These I/O pins account for 20 of the pins.
+
+Microcontroller
+2.3 16x2 LCD Display Module
+An LCD is an electronic display module which uses liquid
+crystal to produce a visible images. The 16x2 LCD display is a
+very basic module commonly used in DIYs and circuits. The
+16x2 translates 0 a display 16 characters per line in 2 such
+lines.
+
+2.4 Air pollution sensor
+Air pollution sensors are devices that monitor the presence of
+air pollution in the surrounding area. They can be used for both
+indoor and outdoor environments. Although there are various
+types of air pollution sensor. We used MQ135 Gas Sensor
+module for Air Quality having digital as well as analog output.
+Sensitive material of MQ135 gas sensor is SnO2, which with
+lower conductivity in clean air. When the target combustible
+gas exist, The sensors conductivity is more higher along with
+the gas concentration rising. MQ135 gas sensor has high
+sensitivity to ammonia, sulphide and benze steam, also
+sensitive to smoke and other harmful gases.
+It is with low cost and suitable for different application. At
+best, low-cost air quality sensors can provide air quality
+monitoring of specific pollutants.
+
+ WORKING
+A digital traffic control system can be made using IR sensors
+along with micro controller and LED’s which can prove a
+worth for the real time application controlling traffic signals
+based on the congestion of traffic. IR sensor placed in the
+entire intersecting road at fixed distance from the signal placed
+in the junction the time delay in the traffic signal is set based
+on the congestion of vehicles on the road.
+The IR sensor is used to change the number of vehicles in the
+road according to the IR count, microcontroller takes
+appropriate decisions as to which road is to be given the
+highest priority and the longest time delay for the
+corresponding traffic light. We will be implement IR sensor
+in the range of 50m’s to 100m’s range in real time
+implementation.
+The system consist of the following three hardware
+components: Display, Detector & Controller. We used three
+type of LED’s Red, Yellow & Green each side of junction.
+Detector sense the presence of vehicles in front of sensor and
+send the signal to the microcontroller for increasing the new
+time sequence.
+We used MQ135 gas sensor module to sense air pollution due
+to density of traffic at the traffic signal in urban area. Display
+the daily average percentage of air pollution in the traffic
+areas.
+
+ ADVANTAGES AND APPLICATION
+Digital traffic control reduce traffic congestion and time
+spend on the road to Improve efficiency. Make the road safer
+and reducing the chance of accidence. It provide data to
+further improve transportation. It reduce the possibilities of
+traffic jams caused by traffic lights an extend and decreases
+pollution by reducing congestion.
+This Traffic Control system is very efficiently used in metro
+cities. It will help us to reduce traffic problems in urban areas.
+It is used to reduce the rout of traffic.
