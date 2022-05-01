@@ -1,0 +1,23 @@
+Generating Code with STM32CubeMX
+Here we are using Keil IDE for programming STM32. 
+It will be a cumbersome job to write complete code from scratch as STM32 is a complex ARM Cortex-M3 microcontroller.
+To make this simple we are using a GUI software STM32CubeMX supplied by STMicroelectronics.
+Follow the below steps accordingly:
+
+Download and install STM32CubeMX and Keil IDE.
+Open the CubeMX software and click on the new project and select the microcontroller as STM32F103C8. Then double click on the STM32F103C8 at the right panel.
+Creating New Project – STM32CubeMX
+Next, a new window will be opened where you need to change SYS Debug to Serial Wire and RCC of High-Speed Clock or HSC to Crystal/Ceramic Resonator as shown in the below fig.
+STM32F103C8T6 STM32CubeMX – SYS Mode Configuration
+Now in the right panel as shown in the below figure, click on the pin of the chip where you want to attach the LED and I have chosen PC13. Select that particular pin where you want to blink the LED as GPIO_output by right-clicking on that pin.
+STM32F103C8T6 STM32CubeMX – Pinout & Configuration
+Click the Clock Configuration and change the HCLK (MHz) to 72 and press Enter.
+STM32F103C8T6 STM32CubeMX – Clock Configuration
+Now go to System View and select GPIO then change the Maximum Output speed as High as shown below.
+STM32F103C8T6 STM32CubeMX – GPIO Mode Configuration
+Open the Project Manager and give the name of the project as LED_Project and change the toolchain/IDE as MDK-ARM V5.
+STM32F103C8T6 STM32CubeMX – Project Manager Settings
+Next on the same window click on the Code Generator and change the option as ‘Copy only the necessary library files’ and click on the GENERATE CODE. Now you can find an option to Open Project. Click on it will open the Keil project with the selected settings and configurations.
+STM32F103C8T6 STM32CubeMX – Generating Keil Code
+Now in the Keil Software, click on the main.c you will find the code. There you need to change three lines of code so the work will be done.
+STM32F103C8T6 STM32CubeMX – Generated Code Keil IDE
