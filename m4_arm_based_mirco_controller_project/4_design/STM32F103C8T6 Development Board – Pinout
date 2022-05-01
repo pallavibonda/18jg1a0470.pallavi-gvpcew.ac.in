@@ -1,0 +1,3 @@
+This is one of the smallest and low-cost ARM Cortex development board available in the market. 
+It uses STM32F103C8T6, an STM32 ARM Cortex-M3 microcontroller. 
+It provides two onboard crystal oscillators, 8MHz for main oscillator and 32KHz for RTC (Real Time Clock).
