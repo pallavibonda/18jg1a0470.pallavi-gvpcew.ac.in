@@ -1,0 +1,8 @@
+Components Required:
+-Hardware
+   --STM32 Blue Pill Development Board STM32F103C8T6
+    --ST-Link-V2
+    --Jumper Wires
+-Software
+   --Keil IDE
+    --STM32CubeMX
