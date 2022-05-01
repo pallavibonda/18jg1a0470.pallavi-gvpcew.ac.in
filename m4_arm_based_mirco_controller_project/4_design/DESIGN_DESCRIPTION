@@ -1,0 +1,5 @@
+Description
+3.3 V pin to: ST-Link 3.3 V
+DIO pin to ST-Link SWDIO
+CLK pin tp ST-Link SWCLK
+GND pin to ST-LINK GND
